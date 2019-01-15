@@ -477,7 +477,7 @@ function RolesManagerServer:OnGetPlayer(command, args, loggedIn)
 			return { 'ERROR', 'SQL ERROR' }
 		end
 
-		m_result = SQL:Query('SELECT role FROM rm_players WHERE name="'..tostring(m_Player.name)..'" ')
+		m_result = SQL:Query('SELECT role FROM rm_players WHERE name="'..SQL:Escape(tostring(m_Player.name))..'" ')
  
 		if not m_result then
 				print('Failed to execute query: ' .. SQL:Error())
