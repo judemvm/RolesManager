@@ -28,7 +28,7 @@ end
 
 function RolesManagerServer:DBCheck()
 	if self:DBCheckTable('rm_roles') == 1 and self:DBCheckTable('rm_players') == 1 then
-		print('Database found!')
+		print('Database is found!')
 		return
 	else
 		self:DBRegister()
