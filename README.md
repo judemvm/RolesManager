@@ -1,6 +1,7 @@
 # RolesManager
 A companion mod for Battlefield 3 [Venice Unleashed](https://veniceunleashed.net/) made with VeniceExtensions.
-Manages roles for users on the server, so that other mods can do player-spesific permissions.
+
+RolesManager handles roles for users on the server, so that other mods can do role-spesific permissions.
 
 ## Rcon Commands
 
