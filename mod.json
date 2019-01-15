@@ -1,0 +1,9 @@
+{
+	"Name": "RolesManager",
+	"Authors": ["Jude"],
+	"Description": "Roles for players on the server",
+	"URL": "https://github.com/judemvm/RolesManager",
+	"Version": "1.0",
+	"HasWebUI": false,
+	"HasVeniceEXT": true
+}
