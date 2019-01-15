@@ -11,4 +11,6 @@ RolesManager handles roles for users on the server, so that other mods can do ro
 * `rm.players.add <player_name> <role_name>` - Add or change the role of a player. This command only works if the player is connected to the server!
 * `rm.players.rem <guid>` - Removes the role of a player by **GUID**. Guid format **AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE**.
 * `rm.players.show` - Show all existing players in the database.
-* `rm.players.get <type> <value>` - Shows the role of a player. By default all players have the **User** role. Types: [ name, guid ]. The name type only works if the player is connected to the server!
+* `rm.players.get <type> <value>` - Shows the role of a player. By default all players have the **User** role.
+
+Types: `[ name, guid ]`. The name type only works if the player is connected to the server!
